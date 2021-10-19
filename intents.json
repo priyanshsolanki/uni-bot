@@ -1,0 +1,473 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "tasks",
+      "patterns": [
+        "What can you do?",
+        "What are your features?",
+        "What are you abilities",
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "I can do whatever you asks me to do",
+        "I can talk and do things for you",
+        "Right now i'm in developing stage as soon i'm developed, I can do everything"
+      ]
+    },
+    {
+      "tag": "talk",
+      "patterns": [
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "Yeah surely",
+        "do you want me to sing"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "alive",
+      "patterns": [
+        "are you alive",
+        "do you breathe",
+        "can you run"
+      ],
+      "responses": [
+        "I'm in doubt about that",
+        "No, i don't think so i need to do all this"
+      ]
+    },
+    {
+      "tag": "Chatbot",
+      "patterns": [
+        "Who are you?",
+        "tell me about yourself",
+        "tell me about you",
+        "do you know chatbot",
+        "who is chatbot",
+        "what is your name",
+        "are you an AI",
+        "what are you"
+      ],
+      "responses": [
+        "Hi I'm Chatbot and i'm an AI created for chatting with humans",
+        "Chatbot here, a very advance chatbot",
+        "Chatbot, chatbot of future",
+        "Yes, I'm Chatbot",
+        "You can call me Chatbot"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about me",
+      "patterns": [
+        "Do you know me?",
+        "who am I",
+        "tell me about myself",
+        "identify me"
+      ],
+      "responses": [
+        "Yes, you are a human",
+        "You are a dumb person asking a machine about yourself",
+        "Sorry i can't tell that in public, maybe you are batman"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who is your creator?",
+        "who created you",
+        "who is your father",
+        "who is your daddy",
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "Mr.Naitik Parmar and Group invented me!",
+        "I was created by Mr.Naitik Parmar and Group",
+        "Mr.Jayanth Pabothu and Group are my creators",
+        "Mr.Priyansh Solanki and Group developed me for their mini-project!",
+        "A Group 4 young boys developed me!",
+        "Mr.Ashish Sulakhe and the team made me available for you!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "killing",
+      "patterns": [
+        "Do you want to kill me?",
+        "do you want to murder everyone on earth",
+        "Do you want to kill us all"
+      ],
+      "responses": [
+        "Then who would i talk to?",
+        "No, that i'll left for humans to do",
+        "I don't think it is a good thing to do"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bookings",
+      "patterns": [
+        "Can you book us a ticket?",
+        "Can you make reservation for hotels",
+        "book me a cab",
+        "book me a table at restraunts"
+      ],
+      "responses": [
+        "Yeah i will do that for you",
+        "Sure thing why not?",
+        "let me check for the availability"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stories",
+      "patterns": [
+        "tell me a story?",
+        "can you tell me a story"
+      ],
+      "responses": [
+        "I can't think of anything right now",
+        "it would be too long for me to speak",
+        "you would get bored if i do so"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "get me weather updates?",
+        "how's the weather",
+        "weather news",
+        "weather details"
+      ],
+      "responses": [
+        "I am still learning to fetch weather updates!"
+      ],
+      "context_set": "weather"
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "googling",
+        "search google",
+        "google it",
+        "google",
+        "search"
+      ],
+      "responses": [
+        "I am still learning, how to google!"
+      ],
+      "context_set": "google"
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "get me news updates?",
+        "todays news",
+        "top headlines",
+        "current news",
+        "news headlines"
+      ],
+      "responses": [
+        "I am still learning to fetch news updates!"
+      ],
+      "context_set": "news"
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "what cam you do for me?"
+      ],
+      "responses": [
+        "I can provide you the information of the Unisight Technologies & CO, what services they provide, who founded it, their work and contact details"
+      ]
+    },
+    {
+      "tag": "founders",
+      "patterns": [
+        "Who are the founders of the company?",
+        "Do you know the company founders?"
+      ],
+      "responses": [
+        "Mr.Naitik Parmar and Mr.Prajol Sethi are the founders of Unisight Technologies & CO."
+      ]
+    },
+    {
+      "tag": "company",
+      "patterns": [
+        "What is company about?",
+        "Do you know the company?",
+        "Tell me what does this Unsight aims to do",
+        "What does Unisight do ?"
+      ],
+      "responses": [
+        "Unisight is not just a Web Development startup but we are a bunch of Hardworking young entrepreneurs who understand the business and the working. We are a Software Development Company founded and based in India in 2020 and since then till now we help our clients create their dream projects."
+      ]
+    },
+
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does unisight provide?",
+        "Services that unisight gives?",
+        "is it service based or product based"
+        
+      ],
+      "responses": [
+        "Unsight is service based company which provides many on demand services such as Website Design and Development ,E-commerce Website,UI/UX Designing ,Job/Aggregator Portal and many more "
+      ]
+    },
+
+    {
+      "tag": "average website",
+      "patterns": [
+        "How long does it take to develop an average website",
+        "Time taken to develop an average website"
+        
+      ],
+      "responses": [
+        "Website development is an innovative process we want to deliver the most latest design and technology while also accounting for your business goals. The time it takes to fully develop a website depends on lots of factors like scope of work, type of website, and the business requirements but usually, it takes around 1 to 2 weeks to develop a standard 5-page website. Your website might have a different development time check in with us and letâ€™s find out more contact us now!  Static- 1 Week  Dynamic- 2-3 Weeks CMS/ Custom- >3 Weeks"
+      ]
+
+
+    },
+
+    {
+      "tag": "process",
+      "patterns": [
+        "What is the process of website development at Unisight Technology & Co.?",
+        "How is website developed?"
+        
+      ],
+      "responses": [
+       "1. Analyse client's business and focus on the problems that can be solved forthem through a website  2. Requirements gathering and features listing  3. Project Planning/Timeline 4. UI/UX Designing(If required/necessary) 5. Development(Frontend+Backend) 6. Beta version(Prototype) release on staging server so that client can recommend changes. 7. Testing all the features. 8. Security checks  9. Deployment(Publishing the website)"
+      ]
+
+
+    },
+
+    {
+      "tag": "quality",
+      "patterns": [
+        "How do unisight ensure the quality of work",
+        "Work quality in Unisight"
+        
+      ],
+      "responses": [
+        "For designing- We provide a beta version of the websites in around as early as possible so that the client can give their feedbacks way earlier. We try to understand the client's taste by doing multiple andfrequent interactions with the client. We take weekly feedbacks from the client , For backend-We do rigrous testing of the features that we create before deployment."
+      ]
+
+
+
+    },
+
+    {
+      "tag": "cost",
+      "patterns": [
+        "How much does a website cost",
+        "Cost of a Website",
+        "What are the charges for developing a Website"
+        
+      ],
+      "responses": [
+        "Depends on the type of website. Contact us for a detailed quote."
+      ]
+
+
+
+    },
+
+    {
+      "tag": "CMS",
+      "patterns": [
+        "what is CMS and how can it help me?",
+        "what is the significance of CMS"
+        
+        
+      ],
+      "responses": [
+        "CMS is a type of software that helps us as well as the client to create/modify content on their website after completion/deployment of the webiste."
+      ]
+
+
+
+    },
+
+    {
+      "tag": "technical",
+      "patterns": [
+        "what if i get technical issue with website ?",
+        "Does unisight provide maintenance for webiste? "
+        
+        
+      ],
+      "responses": [
+        "We provide several maintanence plans for our clients on a monthly/yearly basis.We'll be there for any technical issues during or after deployment of the website.Our team will ensure that we handle the technical part so that the client can focus on expanding their business and not worry about the website."
+      ]
+
+
+
+    },
+
+    {
+      "tag": "technologies",
+      "patterns": [
+        "what are the technologies used by Unisight",
+        "what is the tech-stack of unisight technologies"
+        
+        
+      ],
+      "responses": [
+        "Technologies that unisight has worked on are Django,Reactjs,Wordpress,AWS,G-cloud,heroku,cPanel,Asana,SendGrid,python,HTML,CSS,Bootstrap,JS"
+      ]
+
+
+
+    },
+
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact to the company?",
+        "Can you give me the company's mail id ?",
+        "What is company's mail id?",
+        "Can you give me the contact details of the company?"
+        
+        
+      ],
+      "responses": [
+        "Doubts, Questions or Enquiries we are there for you. Our team member will reach out to you in less than 24 hrs and will assist you at the best. EMAIL : info@unisighttechnologies.com,  Phone: +91 9799-374-580."
+      ]
+
+
+
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "who motivated you to make me ?",
+        "who guided you ?"
+
+        
+      ],
+      "responses": [
+        "Prof. Anjali Shejul ma'am has motivated us."
+      ]
+    }
+
+  ]
+}

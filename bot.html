@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Unibot-AI MiniProject</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <!-- Currently BROKEN!
+Working prototype on meesrutten.me :) -->
+  <div style="display: flex;flex-direction: row;">
+    <div style="width: 50%;text-align: center;">
+      <span style="font-size: 60px;font-weight: 600;color: #FFF;">Unibot</span>
+      <img style="width: 100%" src='./195-ai.svg' />
+    </div>
+    <main style="width: 50%;" class="page__main">
+      <div class="block--background">
+        <div class="chatbot__overview">
+          <ul class="chatlist">
+            <li class="bot__output bot__output--standard">Hey, I'm Unibot!</li>
+            <li class="bot__output bot__output--standard">I will assist you with your queries!</li>
+            <li class="bot__output bot__output--standard">
+              <span class="bot__output--second-sentence">You can ask me a bunch of things!</span>
+              <ul>
+                <li class="input__nested-list">What is <span class="bot__command"> company </span> about</li>
+
+                <li class="input__nested-list">Who are the  <span class="bot__command">founders </span>of the company?</li>
+                <li class="input__nested-list">What are the <span class="bot__command">technologies</span> used by Unisight</li>
+                <li class="input__nested-list">What <span class="bot__command">services</span>  does unisight provide?</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="chatbox-area">
+          <form action="" id="chatform">
+            <textarea placeholder="Talk to me!" class="chatbox" name="chatbox" resize: "none" minlength="2"></textarea>
+            <input class="submit-button" type="submit" value="send">
+          </form>
+        </div>
+        <div class="block--background"></div>
+
+    </main>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </div>
+</body>
+
+</html>
